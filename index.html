@@ -1,1 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Acid Collective</title>
+  <style>
+    body {
+      background-color: white;
+      color: black;
+      font-family: Helvetica, Arial, sans-serif;
+      margin: 50px;
+    }
+    h1 {
+      font-size: 60px;
+      margin-bottom: 100px;
+    }
+    .button {
+      font-size: 36px;
+      margin-left: 15px;
+      margin-bottom: 20px;
+      cursor: pointer;
+      user-select: none;
+    }
+    .button:hover {
+      text-decoration: underline;
+    }
+    .member-list {
+      margin-top: 10px;
+      margin-left: 30px;
+      font-size: 24px;
+      display: none;
+      list-style: none;
+      padding: 0;
+    }
+    .member-list li {
+      margin-bottom: 8px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Acid Collective</h1>
 
+  <div class="button" onclick="toggleMembers()">Members</div>
+  <ul class="member-list" id="memberList">
+    <li>Piecemissing</li>
+    <li>Wuuper</li>
+    <li>LSD!Phantom</li>
+    <li>Mourn</li>
+    <li>Origami</li>
+    <li>DaRabbitz</li>
+    <li>Pluck</li>
+    <li>Adrian</li>
+    <li>Vib</li>
+  </ul>
+
+  <div class="button">
+    <a href="albums.html" style="text-decoration: none; color: black;">Albums</a>
+  </div>
+
+  <script>
+    function toggleMembers() {
+      const list = document.getElementById('memberList');
+      list.style.display = list.style.display === 'none' ? 'block' : 'none';
+    }
+  </script>
+</body>
+</html>
