@@ -1,0 +1,4 @@
+git clone https://github.com/piecedup/piecedup.github.io
+cd piecedup.github.io
+
+echo "Hello World" > index.html
