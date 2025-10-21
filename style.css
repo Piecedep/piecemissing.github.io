@@ -1,8 +1,10 @@
 body {
 font-size:50px;
-  p {
-      text-align: right;
-  }
+    {
+      position: relative;
+      top: 20px;
+      left: 10px;
+    }
   color: ffffff;
   background-image: url(clouds.png);
   }
