@@ -1,6 +1,14 @@
 body {
 font-size:50px;
-  @font-face;
+  @font-face {
+  font-family: 'MyCustomFont';
+  src: url('path/to/mycustomfont.woff2') format('woff2'),
+       url('path/to/mycustomfont.woff') format('woff'),
+       url('path/to/mycustomfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
   color: 00009B;
   background-image: url(piecemissingcum.png);
   }
