@@ -1,5 +1,8 @@
 body {
 font-size:50px;
+  p {
+      text-align: center;
+  }
   color: 00009B;
   background-image: url(clouds.png);
   }
