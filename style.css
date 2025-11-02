@@ -1,4 +1,6 @@
 body{
-    .center-text {
-  text-align: center;
+      position: relative;
+      top: 100px;
+      left: 200px;
+    }
 }
